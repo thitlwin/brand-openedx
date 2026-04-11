@@ -5,12 +5,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: 'brand-openedx'
-  description: "The frontend component includes the default branding assets and styles used in Open edX applications."
+  description: "Fork: default branding assets and styles for Open edX (MyLanGo theme alignment)."
   links:
-    - url: "https://github.com/openedx/brand-openedx"
-      title: "Open edX Brand Package Interface"
+    - url: "https://github.com/thitlwin/brand-openedx"
+      title: "MyLanGo fork (brand-openedx)"
       icon: "Web"
-    - url: "https://github.com/openedx/brand-openedx/blob/master/README.md"
+    - url: "https://github.com/openedx/brand-openedx"
+      title: "Upstream openedx/brand-openedx"
+      icon: "Web"
+    - url: "https://github.com/thitlwin/brand-openedx/blob/master/README.md"
       title: "README"
       icon: "Article"
   annotations:

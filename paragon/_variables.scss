@@ -1,2 +1,50 @@
-// Use this file to set SASS variables for @edx/paragon
-// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+// MyLanGo marketing palette — keep in sync with openedx-cms/src/app/globals.css
+// Primary #DA291C, hover #b82216, secondary #0A1128, accent #FDF4F5, muted #F3F4F6, muted text #6B7280
+
+$primary: #da291c;
+$secondary: #0a1128;
+$brand: $primary;
+$dark: $secondary;
+
+$primary-300: lighten($primary, 10%);
+$primary-500: $primary;
+$primary-700: #b82216;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "brand": $brand,
+    "dark": $dark,
+    "success": #0d7d4d,
+    "info": #00688d,
+    "warning": #d6b600,
+    "danger": #ab0d02,
+    "light": #f3f4f6,
+    "accent": #fdf4f5,
+  ),
+  $theme-colors
+);
+
+$theme-color-levels: () !default;
+$theme-color-levels: map-merge(
+  (
+    "primary-300": $primary-300,
+    "primary-500": $primary-500,
+    "primary-700": $primary-700,
+  ),
+  $theme-color-levels
+);
+
+// Typography — match layout.tsx: Inter (body), Outfit (headings)
+$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: "Outfit", $font-family-sans-serif !default;
+
+$font-size-base: 1rem !default;
+$body-color: #171717 !default;
+$body-bg: #ffffff !default;
+
+$border-radius: 0.5rem !default;
+$border-radius-lg: 0.6rem !default;
+$border-radius-sm: 0.4rem !default;

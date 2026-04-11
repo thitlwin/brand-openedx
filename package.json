@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/brand-openedx.git"
+    "url": "git+https://github.com/thitlwin/brand-openedx.git"
   },
   "author": "Open edX Community",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/openedx/brand-openedx/issues"
+    "url": "https://github.com/thitlwin/brand-openedx/issues"
   },
-  "homepage": "https://github.com/openedx/brand-openedx#readme",
+  "homepage": "https://github.com/thitlwin/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
   },

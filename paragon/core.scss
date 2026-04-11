@@ -1,4 +1,6 @@
-// this file creates the core.css import here all the common styles for your theme.
-
+// Token build + theme: README requires `fonts.scss`, `_variables.scss`, `_overrides.scss`.
 @use "./build/core/variables";
-// @use "./build/core/custom-media-breakpoints";
+
+@use "./fonts";
+@use "./variables" as brand;
+@use "./overrides";

@@ -66,3 +66,15 @@ documentation in Paragon is coming soon. In the meantime, you can start
 a theme by the contents of [\_variables.scss (after line
 7)](https://github.com/openedx/paragon/blob/master/scss/core/_variables.scss#L7-L1046)
 file from the Paragon repository into this file.
+
+`paragon/core.scss` imports the token build output and the files above;
+run `npm run build` after changing theme files.
+
+## MyLanGo fork (thitlwin)
+
+This fork keeps marketing and MFE styling aligned with the Next.js site
+`openedx-cms`: see `openedx-cms/src/app/globals.css` for color tokens
+(primary `#DA291C`, secondary `#0A1128`, accent `#FDF4F5`, Inter + Outfit).
+Theme variables live in `paragon/_variables.scss`.
+
+Upstream reference: [openedx/brand-openedx](https://github.com/openedx/brand-openedx).
