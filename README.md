@@ -34,6 +34,21 @@ To use a custom brand and theme\...
     see the new brand reflected. \[TODO: Add link to relevant
     documentation when it is completed\].
 
+### Installing from Git in MFEs (`npm install @edx/brand@git+...`)
+
+Microfrontends load theme CSS from `dist/` via `dist/theme-urls.json` (see
+`@openedx/frontend-build` Paragon webpack plugin). That directory is produced by
+`npm run build` / `make build`.
+
+When you depend on a **git ref**, either:
+
+1. **Commit `dist/`** on the release branch/tag (recommended), then reinstall; or
+2. Run **`npm run build`** inside `node_modules/@edx/brand` after install.
+
+The `prepare` script builds `dist/` automatically when it is missing. For Tutor
+deployments, also set `MFE_CONFIG["PARAGON_THEME_URLS"]` to raw GitHub URLs under
+`dist/` (see `tutor-plugins-local/mfe_mylango_branding.py`).
+
 ## Files this package must make available
 
 `/logo.svg`

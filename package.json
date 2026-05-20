@@ -12,6 +12,7 @@
     "build": "make build",
     "build-tokens": "make build-tokens",
     "build-scss": "make build-scss",
+    "prepare": "node -e \"try{require('fs').accessSync('dist/theme-urls.json')}catch(e){process.exit(1)}\" || npm run build",
     "prepack": "make build",
     "build:watch": "nodemon --ignore dist -x \"make build\"",
     "clean": "make clean",
