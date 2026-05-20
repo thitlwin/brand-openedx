@@ -5,3 +5,8 @@
 @use "./fonts";
 @use "./build/core/variables";
 // @use "./build/core/custom-media-breakpoints";
+
+/* Match openedx-cms: Burmese locale uses Noto Sans Myanmar for body text. */
+html[lang="my"] body {
+  font-family: 'Noto Sans Myanmar', var(--pgn-typography-font-family-base);
+}

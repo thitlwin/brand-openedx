@@ -1,0 +1,14 @@
+{
+  "typography": {
+    "headings": {
+      "font": {
+        "family": {
+          "source": "$headings-font-family",
+          "$value": "'Outfit', Inter, 'Helvetica Neue', Arial, sans-serif",
+          "$type": "fontFamily",
+          "$description": "Heading stack aligned with openedx-cms (Outfit + Inter)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "color": {
+    "$type": "color",
+    "primary": {
+      "base": {
+        "source": "$primary",
+        "$value": "#DA291C",
+        "$description": "Primary brand color (matches openedx-cms --color-primary)."
+      }
+    },
+    "secondary": {
+      "base": {
+        "source": "$secondary",
+        "$value": "#0A1128",
+        "$description": "Secondary / ink color (matches openedx-cms --color-secondary)."
+      }
+    },
+    "brand": {
+      "base": {
+        "source": "$brand",
+        "$value": "#DA291C",
+        "$description": "Marketing primary aligned with openedx-cms."
+      }
+    },
+    "light": {
+      "base": {
+        "source": "$light",
+        "$value": "#FDF4F5",
+        "$description": "Light scale base (matches openedx-cms --color-accent wash)."
+      }
+    },
+    "gray": {
+      "100": {
+        "source": "$gray-100",
+        "$value": "#F3F4F6",
+        "$description": "Subtle surface gray (matches openedx-cms --color-muted)."
+      }
+    },
+    "text-muted": {
+      "source": "$text-muted",
+      "$value": "#6B7280",
+      "$description": "Muted body text (matches openedx-cms --color-muted-foreground)."
+    }
+  }
+}
