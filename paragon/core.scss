@@ -10,3 +10,20 @@
 html[lang="my"] body {
   font-family: 'Noto Sans Myanmar', var(--pgn-typography-font-family-base);
 }
+
+/*
+ * tutor-indigo uses font-weight 500 for header nav and many dashboard labels.
+ * Paragon sets card titles and headings to bold (700), which feels heavier/larger.
+ */
+#root .site-header-desktop .main-nav .nav-link,
+#root .site-header-desktop .secondary-menu-container .nav-link {
+  font-weight: var(--pgn-typography-font-weight-semi-bold);
+}
+
+.pgn__card .pgn__card-header .pgn__card-header-title,
+.pgn__card .pgn__card-header .pgn__card-header-title-sm,
+.pgn__card .pgn__card-header .pgn__card-header-title-md,
+a.course-card-title,
+.course-card-title {
+  font-weight: var(--pgn-typography-font-weight-semi-bold);
+}

@@ -7,6 +7,12 @@
           "$value": "'Outfit', Inter, 'Helvetica Neue', Arial, sans-serif",
           "$type": "fontFamily",
           "$description": "Heading stack aligned with openedx-cms (Outfit + Inter)."
+        },
+        "weight": {
+          "source": "$headings-font-weight",
+          "$value": "{typography.font.weight.semi.bold}",
+          "$type": "fontWeight",
+          "$description": "Medium (500) like tutor-indigo nav/titles; Paragon default is bold (700)."
         }
       }
     }
