@@ -1,0 +1,28 @@
+{
+  "typography": {
+    "input": {
+      "btn": {
+        "font": {
+          "size": {
+            "$type": "dimension",
+            "base": {
+              "source": "$input-btn-font-size",
+              "$value": "1rem",
+              "$description": "Button/input font size aligned with tutor-indigo (16px)."
+            },
+            "sm": {
+              "source": "$input-btn-font-size-sm",
+              "$value": "0.875rem",
+              "$description": "Small button/input font size aligned with tutor-indigo nav (14px)."
+            },
+            "lg": {
+              "source": "$input-btn-font-size-lg",
+              "$value": "1.125rem",
+              "$description": "Large button/input font size."
+            }
+          }
+        }
+      }
+    }
+  }
+}
